@@ -1,0 +1,22 @@
+/*Create My Application Theme*/
+
+@import "../node_modules/@angular/material/theming";
+@include mat-core();
+
+$my-primary:mat-palette($mat-deep-orange,500);
+$my-accent:mat-palette($mat-deep-orange,900);
+
+$my-theme: mat-light-theme($my-primary,$my-accent);
+
+@include angular-material-theme($my-theme);
+
+ //adding alternative theme
+.alternative {
+
+    $my-primary:mat-palette($mat-amber,500);
+    $my-accent:mat-palette($mat-deep-orange,900);
+    
+    $my-theme: mat-light-theme($my-primary,$my-accent);
+    
+    @include angular-material-theme($my-theme) ;
+}
