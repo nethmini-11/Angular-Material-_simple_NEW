@@ -16,11 +16,11 @@ export class LoginComponent implements OnInit {
   }
   initForm(){
     this.formGroup = new FormGroup({
-      email:new FormControl('',[Validators.required]),
-      password:new FormControl('',[Validators.required])
+      name:new FormControl('',[Validators.required]),
+      job:new FormControl('',[Validators.required])
     });
   }
-  loginProcess(){
+  registerProcess(){
     if(this.formGroup.valid){
       this.authService.login(this.formGroup.value).subscribe(result =>{
         if(result.success){

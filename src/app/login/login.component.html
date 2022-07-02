@@ -1,16 +1,19 @@
+<mat-toolbar color="primary"><button mat-raised-button type="submit" class="button">Update User</button>
+</mat-toolbar><br>
 <div fxLayoutAlign="center center " fxFlexFill class="main-div " >
     <mat-card fxFlex="25">
         <mat-toolbar color="primary">User Registration</mat-toolbar>
         <img mat-card-image src="assets/login.png">
-        <form fxLayoutAlign="stretch" fxLayout="column" class="login-form" [formGroup]="formGroup" (ngSubmit)="loginProcess()">
+        <form fxLayoutAlign="stretch" fxLayout="column"  class="login-form" [formGroup]="formGroup" (ngSubmit)="registerProcess()">
             <mat-form-field  >
-              <input matInput placeholder="Email" formControlName="email">
+              <input matInput placeholder="Name" formControlName="name">
             </mat-form-field>
           
             <mat-form-field >
-                <input matInput Type="password" placeholder="Password" formControlName="password">
+                <input matInput Type="job" placeholder="Job role" formControlName="job">
               </mat-form-field>
-              <button mat-raised-button type="submit" class="mt-5" color="primary">Login</button>
+              <button mat-raised-button type="submit" class="mt-5" color="primary">Register User</button>
           </form>
     </mat-card>
+    
 </div>

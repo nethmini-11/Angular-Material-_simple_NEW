@@ -5,7 +5,6 @@
 
 $my-primary:mat-palette($mat-green,900);
 $my-accent:mat-palette($mat-light-green,900);
-
 $my-theme: mat-light-theme($my-primary,$my-accent);
 
 @include angular-material-theme($my-theme);
