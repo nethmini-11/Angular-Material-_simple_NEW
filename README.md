@@ -11,6 +11,8 @@
  UI for user delete function : http://localhost:4200/delete
 
 ## Screen Shots:
+![Screenshot (139)](https://user-images.githubusercontent.com/83303587/177044749-030750f6-a67d-4139-971b-62e172e8822b.png)
+
 
 
 
