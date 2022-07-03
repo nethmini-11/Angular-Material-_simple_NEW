@@ -1,3 +1,28 @@
+![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=280&section=header&text=Basic%20Angular%20%20Material&fontSize=40&render&animation=fadeIn&fontAlignY=35)
+
+## Routing Paths :
+
+ simple user registration UI :http://localhost:4200/register
+ 
+ UI for update user: http://localhost:4200/update
+ 
+ UI for display registered user details with pagination: http://localhost:4200/userlist
+ 
+ UI for user delete function : http://localhost:4200/delete
+
+## Screen Shots:
+
+
+
+
+
+
+
+
+
+
+============================================================================================
+
 # Angularapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
