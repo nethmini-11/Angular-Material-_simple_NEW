@@ -8,6 +8,11 @@ import { AuthServiceService } from '../auth-service.service';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
+  hidden = false;
+
+  toggleBadgeVisibility() {
+    this.hidden = !this.hidden;
+  }
   // @ts-ignore
   formGroup: FormGroup;
   constructor(private authService:AuthServiceService) { }

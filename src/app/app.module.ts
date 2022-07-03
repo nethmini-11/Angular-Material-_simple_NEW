@@ -16,17 +16,17 @@ import {AppRoutingModule} from './app-routing.module';
 import {MatTableModule} from '@angular/material/table';
 import { ListusersComponent } from './listusers/listusers.component'
 import {MatPaginatorModule} from '@angular/material/paginator';
-import { UserdatalistComponent } from './userdatalist/userdatalist.component';
 import {UserlistService} from './user.list.service';
 import { AlluserComponent } from './alluser/alluser.component';
+import {MatBadgeModule} from '@angular/material/badge';
+import {MatIconModule} from '@angular/material/icon';
 
 @NgModule({
   declarations: [
-    AppComponent,
+   AppComponent,
    LoginComponent,
    UpdateComponent,
    ListusersComponent,
-   UserdatalistComponent,
    AlluserComponent,
     
   ],
@@ -45,10 +45,12 @@ import { AlluserComponent } from './alluser/alluser.component';
     ReactiveFormsModule,
     MatTableModule,
     MatPaginatorModule,
+    MatBadgeModule,
+    MatIconModule
    
 
   ],
-  providers: [ ],
+  providers: [ UserlistService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

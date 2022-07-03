@@ -33,9 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: aliceblue;
-  background: rgb(26,35,126);
-  background: linear-gradient(90deg, rgba(26,35,126,1) 0%, rgba(25,118,210,1) 100%);
+  color:rgb(26,35,126);
 }
 
 .vertical-center {
@@ -44,4 +42,6 @@
   align-items: center;
   height: 200px; 
   }
-  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
