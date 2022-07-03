@@ -1,3 +1,30 @@
+![header](https://capsule-render.vercel.app/api?type=wave&color=gradient&height=280&section=header&text=Basic%20Angular%20%20Material&fontSize=40&render&animation=fadeIn&fontAlignY=35)
+
+## Routing Paths :
+
+ simple user registration UI :http://localhost:4200/register
+ 
+ UI for update user: http://localhost:4200/update
+ 
+ UI for display registered user details with pagination: http://localhost:4200/userlist
+ 
+ UI for user delete function : http://localhost:4200/delete
+
+## Screen Shots:
+![Screenshot (139)](https://user-images.githubusercontent.com/83303587/177044749-030750f6-a67d-4139-971b-62e172e8822b.png)
+![Screenshot (140)](https://user-images.githubusercontent.com/83303587/177044814-cebea7bc-9160-492d-b398-294d17f71475.png)
+![Screenshot (141)](https://user-images.githubusercontent.com/83303587/177044902-ff92845a-303e-4459-b981-257a99129ccc.png)
+![Screenshot (142)](https://user-images.githubusercontent.com/83303587/177044943-6a7dbdc9-1a29-4fc0-8222-1190fa9abc43.png)
+
+## How to Run ?
+You can simply run using following commands,
+
+Install Node Modules -> npm install
+
+Run -> npm start
+
+============================================================================================
+
 # Angularapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.4.
