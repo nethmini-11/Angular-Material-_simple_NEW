@@ -20,6 +20,7 @@ import {UserlistService} from './user.list.service';
 import { AlluserComponent } from './alluser/alluser.component';
 import {MatBadgeModule} from '@angular/material/badge';
 import {MatIconModule} from '@angular/material/icon';
+import { DeleteuserComponent } from './deleteuser/deleteuser.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import {MatIconModule} from '@angular/material/icon';
    UpdateComponent,
    ListusersComponent,
    AlluserComponent,
+   DeleteuserComponent,
     
   ],
   imports: [
