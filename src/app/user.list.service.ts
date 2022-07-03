@@ -7,7 +7,7 @@ import { baseUrl } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class UserlistService {
-
+//end point integration for GET
   private url = 'https://reqres.in/api/users';
    
   constructor(private httpClient: HttpClient) { }

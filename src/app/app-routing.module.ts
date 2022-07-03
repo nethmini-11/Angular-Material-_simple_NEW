@@ -7,7 +7,7 @@ import { AlluserComponent } from './alluser/alluser.component';
 import { DeleteuserComponent } from './deleteuser/deleteuser.component';
 
 const routes: Routes = [
-  {path:'login',component:LoginComponent},
+  {path:'register',component:LoginComponent},
   {path:'update' ,component:UpdateComponent},
   {path:'userlist' ,component:ListusersComponent},
   {path:'list',component:AlluserComponent},

@@ -10,6 +10,8 @@ export class AuthServiceService {
 
   constructor(private http:HttpClient) { 
 }
+
+//end point integration for CREATE AND UPDATE
 login(data: any):Observable<any>{
   return this.http.post(`${baseUrl}users`,data);
 }
