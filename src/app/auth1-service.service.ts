@@ -8,20 +8,8 @@ import { baseUrl } from 'src/environments/environment';
 })
 export class AuthServiceService {
 
-  constructor(private http:HttpClient) { 
-}
-login(data: any):Observable<any>{
-  return this.http.post(`${baseUrl}users`,data);
-}
-update(data: any):Observable<any>{
-  return this.http.put(`${baseUrl}users/2`,data);
-}
- 
-
-
+  constructor(private http:HttpClient) { }
+  update(data: any):Observable<any>{
+    return this.http.put(`${baseUrl}users/2`,data);
   }
-
- 
- 
-
-
+}

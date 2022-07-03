@@ -1,1 +1,23 @@
-<p>update works!</p>
+<mat-toolbar color="primary" class="toolbar">User Management System</mat-toolbar>
+<div fxLayoutAlign="center center " fxFlexFill class="main-div " >
+    <img class="img1" mat-card-image src="assets/update.jpg">
+
+      <mat-card >
+        <mat-toolbar  class="toolbar-sub">Update Users</mat-toolbar>
+          <form fxLayoutAlign="stretch" fxLayout="column"  class="update-form" [formGroup]="formGroup" (ngSubmit)="updateProcess()">
+
+            <mat-form-field appearance="outline" >
+              <input matInput placeholder="User Name" formControlName="name" >
+            </mat-form-field>
+          
+            <mat-form-field appearance="outline" >
+                <input matInput Type="password" placeholder="Password" formControlName="password">
+              </mat-form-field>
+
+              <div class="vertical-center">
+            <button mat-raised-button type="submit" class="button">Update</button>
+             </div>
+          </form>
+  </mat-card>
+
+</div>

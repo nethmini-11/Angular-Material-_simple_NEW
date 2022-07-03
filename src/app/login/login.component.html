@@ -1,19 +1,23 @@
-<mat-toolbar color="primary"><button mat-raised-button type="submit" class="button">Update User</button>
-</mat-toolbar><br>
+<mat-toolbar color="primary" class="toolbar">User Management System</mat-toolbar>
 <div fxLayoutAlign="center center " fxFlexFill class="main-div " >
-    <mat-card fxFlex="25">
-        <mat-toolbar color="primary">User Registration</mat-toolbar>
-        <img mat-card-image src="assets/login.png">
-        <form fxLayoutAlign="stretch" fxLayout="column"  class="login-form" [formGroup]="formGroup" (ngSubmit)="registerProcess()">
-            <mat-form-field  >
-              <input matInput placeholder="Name" formControlName="name">
+    <img class="img1" mat-card-image src="assets/register.jpg">
+
+      <mat-card >
+        <mat-toolbar  class="toolbar-sub">User Registration</mat-toolbar>
+          <form fxLayoutAlign="stretch" fxLayout="column"  class="login-form" [formGroup]="formGroup" (ngSubmit)="registerProcess()">
+
+            <mat-form-field appearance="outline" >
+              <input matInput placeholder="User Name" formControlName="name" >
             </mat-form-field>
           
-            <mat-form-field >
-                <input matInput Type="job" placeholder="Job role" formControlName="job">
+            <mat-form-field appearance="outline" >
+                <input matInput Type="password" placeholder="Password" formControlName="password">
               </mat-form-field>
-              <button mat-raised-button type="submit" class="mt-5" color="primary">Register User</button>
+
+              <div class="vertical-center">
+            <button mat-raised-button type="submit" class="button">Register</button>
+             </div>
           </form>
-    </mat-card>
-    
+  </mat-card>
+
 </div>
