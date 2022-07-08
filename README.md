@@ -21,8 +21,7 @@ You can simply run using following commands,
 
 Install Node Modules -> npm install
 
-Run -> npm start
-
+Run -> ng serve
 ============================================================================================
 
 # Angularapp
